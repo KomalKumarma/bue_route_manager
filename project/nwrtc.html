@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bus Route Finder</title>
+  <link rel="stylesheet" href="index2.css" />
+</head>
+<body>
+    <div class="image">
+    </div>
+    <h1 class="title"> bus route manager</h1>
+  <div class="container">
+    <h1>Bus Route Finder</h1>
+    <form action="#" method="post" id="route-form">
+      <div class="form-group">
+        <label for="start">Starting Point:</label>
+        <select id="start" name="start" required>
+          <option value="">Select Starting Point</option>
+          <option value="dharwad">Dharwad</option>
+          <option value="haveri">Haveri</option>
+          <option value="karwar">Karwar</option>
+          <option value="belagavi">Belagavi</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Destination Point:</label>
+        <select id="destination" name="destination" required>
+          <option value="">Select Destination Point</option>
+          <option value="dharwad">Dharwad</option>
+          <option value="haveri">Haveri</option>
+          <option value="karwar">Karwar</option>
+          <option value="belagavi">Belagavi</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="travel-date">Date of Travel:</label>
+        <input type="date" id="travel-date" name="travel-date" required />
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</body>
+<script src="nwrtc.js"></script>
+
+</html>

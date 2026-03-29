@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bus Services</title>
+  <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+     <nav class="navbar">
+      <div class="navlink">
+        <a id="home" href="login.html">Home</a>
+        <a id="service" href="#services">Services</a>
+        <a id="contact" href="#contact">Contact</a>
+        <a id="fares" href="fares.html">Fairs</a>
+       </div>
+     </nav>
+     <div class="title">
+      <h1 class="main"> bus route manager</h1>
+     </div>
+     <div class="big-image">
+     </div>
+  <h1 class="name">Select Bus Service</h1>
+
+  <div class="button-container">
+    <div class="first">
+       <div class="ksrtc">
+         <button class="bus-buttonone" onclick="location.href='index2.html?service=ksrtc'">KSRTC</button>
+       </div>
+     </div>
+    <div class="second">
+       <div class="nwksrtc"> 
+         <button class="bus-buttontwo" onclick="location.href='nwrtc.html?service=nwkrtc'">NWKRTC</button>
+       </div>
+     </div>
+     <div class="third">
+       <div class="kkrtc">
+         <button class="bus-buttonthree" onclick="location.href='kkrtc.html?service=kkrtc'">KKRTC</button>
+       </div>
+     </div>
+     <div class="fourth">
+         <div class="luxury">
+           <button class="bus-buttonfour" onclick="location.href='luxury.html?service=luxury'">Luxury Buses</button>
+         </div>
+       </div>
+   </div>
+   <footer class="footer">
+  <div class="footer-content">
+
+    <!-- 1. Company Info -->
+    <div class="footer-section company-info">
+      <h2>KSRTC Bus Services</h2>
+      <p>Connecting cities across Karnataka with safe, timely, and comfortable travel.</p>
+    </div>
+
+    <!-- 4. Customer Support -->
+    <div class="footer-section support-info">
+      <h3>Customer Support</h3>
+      <p>📞 +91-98765-43210 (6 AM - 10 PM)</p>
+      <p>✉️ support@ksrtcservices.com</p>
+      <p>🚨 Emergency: 1800-100-100</p>
+    </div>
+
+    <!-- 6. Social Media -->
+    <div class="footer-section social-media">
+      <h3>Follow Us</h3>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a>
+    </div>
+
+  </div>
+
+  <!-- 10. Copyright -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 KSRTC Bus Services. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById("service").addEventListener("click", function(event) {
+    event.preventDefault(); // prevent default anchor behavior
+    const target = document.querySelector(".button-container");
+    target.scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.getElementById("contact").addEventListener("click", function(event) {
+    event.preventDefault();
+    const footer = document.querySelector(".footer");
+    footer.scrollIntoView({ behavior: "smooth" });
+  });
+</script>
+
+
+</body>
+</html>

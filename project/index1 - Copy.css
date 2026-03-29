@@ -1,0 +1,162 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 1650px;
+      margin: 0;
+    }
+    .big-image{
+        width: 1500px;
+        height: 300px;
+        border: 2px solid black;
+        position: relative;
+        bottom: 200px;
+    }
+    .name{
+        position: relative;
+        bottom: 200px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+        bottom: 200px;
+    }
+
+    .bus-buttonone {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttontwo {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttonthree {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttonfour {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 130px;
+
+    }
+
+    .bus-buttonone:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttontwo:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttonthree:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttonfour:hover {
+      background-color: #0056b3;
+    }
+    .navbar{
+        width: 1500px;
+        height: 50px;
+        border: 2px solid black;
+        position: relative;
+        bottom: 220px;
+      }
+      .navlink{
+        position: relative;
+        top: 13px;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+      }
+      .ksrtc{
+        width:400px;
+        height: 250px;
+        border: 2px solid black;
+      }
+       .nwksrtc{
+        width:400px;
+        height: 250px;
+        border: 2px solid black;
+      }
+       .kkrtc{
+        width:400px;
+        height: 250px;
+        border: 2px solid black;
+      }
+       .luxury{
+        width:400px;
+        height: 250px;
+        border: 2px solid black;
+      }
+      .first{
+        border: 2px solid black;
+        width:400px;
+        height: 350px;
+      }
+      .second{
+        border: 2px solid black;
+        width:400px;
+        height: 350px;
+      }
+      .third{
+        border: 2px solid black;
+        width:400px;
+        height: 350px;
+      }
+      .fourth{
+        border: 2px solid black;
+        width:400px;
+        height: 350px;
+      }

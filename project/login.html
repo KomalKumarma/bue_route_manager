@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(imges/frontdesign2.jpg);
+      background-size: cover;
+    }
+
+    .login-container {
+      
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 75px;
+      left: 70px;
+      
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px 0px 10px 10px;
+      margin: 10px 0px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 10px 10px 10px 10px;
+      margin-left: 5px;
+      margin-top: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #0056b3;
+    }
+
+    .error {
+      color: red;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .details{
+      width: 1300px;
+      height: 500px;
+      display: flex;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .frontimage{
+      width:800px;
+      height: 500px;
+      }
+      #heading{
+        text-align: center;
+        padding-top: 55px;
+        font-size: xx-large;
+      }
+      #theory{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        padding-top: 20px;
+        line-height: 20px;
+        
+      }
+  </style>
+</head>
+<body>
+<div class="details">
+   <div class="frontimage">
+       <h1 id="heading">welcome to  website</h1>
+       <p id="theory">The Bus Route Manager is a smart web-based application designed  <br>to streamline the planning and management of bus transportation.<br> The system allows users to select from different types of buses and <br> choose their departure and destination points. </p> 
+   </div>
+   <div class="login-container">
+     <h2>Login</h2>
+     <form id="loginForm">
+       <label for="username">User ID:</label>
+       <input type="text" id="username" required>
+       <label for="password">Password:</label>
+       <input type="password" id="password" required>
+       <button type="submit">Login</button>
+       <div class="error" id="errorMessage"></div>
+     </form>
+   </div>
+</div>
+<script>
+  document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+    const errorMessage = document.getElementById('errorMessage');
+
+    const validUsername = 'admin';
+    const validPassword = '12345';
+
+    if (username === validUsername && password === validPassword) {
+      window.location.href = 'index1.html';
+    } else {
+      errorMessage.textContent = 'Invalid username or password';
+    }
+  });
+</script>
+
+</body>
+</html>

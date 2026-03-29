@@ -1,0 +1,212 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 1650px;
+      margin: 0;
+      background-image: url(imges/frontdesign.jpg);
+      background-size: cover;
+    }
+    .big-image{
+        width: 1550px;
+        height: 430px;
+        border: 2px solid black;
+        position: relative;
+        bottom: 205px;
+        right: 10px;
+        background-image: url(imges/menu3img.jpg); 
+        background-size: cover; 
+    }
+    .name{
+        position: relative;
+        bottom: 200px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      bottom: 200px;
+      border: 2px solid black;
+    }
+
+    .bus-buttonone {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttontwo {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttonthree {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 150px;
+
+    }
+     .bus-buttonfour {
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s;
+      position: relative;
+      top :270px;
+      left: 130px;
+
+    }
+
+    .bus-buttonone:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttontwo:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttonthree:hover {
+      background-color: #0056b3;
+    }
+    
+    .bus-buttonfour:hover {
+      background-color: #0056b3;
+    }
+    #home{
+      text-decoration: double;
+      color: #671616;
+    }
+    #service{
+      text-decoration: double;
+      color: #c70303;
+    }
+    #contact{
+      text-decoration: double;
+      color: #e51515;
+    }
+    #fares{
+      text-decoration: double;
+      color: #a50e0e;
+    }
+    .navbar{
+      width: 1550px;
+      height: 35px;
+      border: 2px solid black;
+      position: relative;
+      background-color: black;
+      color: white;
+      }
+      .navlink{
+      position: relative;
+      top: 8px;
+      display: flex;
+      justify-content: space-around;
+      }
+      .ksrtc{
+        width:400px;
+        height: 250px;
+        /* border: 2px solid black; */
+        background-image: url(imges/ksrtcimg.jpg); 
+        background-size: cover; 
+        border-radius: 10px;
+      }
+       .nwksrtc{
+        width:400px;
+        height: 250px;
+        /* border: 2px solid black; */
+        background-image: url(imges/newnwkrtcimg.jpg); 
+        background-size: cover;
+        border-radius: 10px;
+      }
+       .kkrtc{
+        width:400px;
+        height: 250px;
+        /* border: 2px solid black; */
+        background-image: url(imges/kkrtc.img.jpg); 
+        background-size: cover;
+        border-radius: 10px;
+      }
+       .luxury{
+        width:400px;
+        height: 250px;
+        /* border: 2px solid black; */
+        background-image: url(imges/luxuryimg.jpg); 
+        background-size: cover;
+        border-radius: 10px;
+      }
+      .first{
+        /* border: 2px solid black; */
+        width:400px;
+        height: 350px;
+        border-radius: 10px;
+      }
+      .first:hover{
+        border: 1px solid black;
+      }
+      .second{
+        /* border: 2px solid black; */
+        width:400px;
+        height: 350px;
+        border-radius: 10px;
+      }
+      .second:hover{
+        border: 1px solid black;
+      }
+      .third{
+        /* border: 2px solid black; */
+        width:400px;
+        height: 350px;
+        border-radius: 10px;
+      }
+      .third:hover{
+        border: 1px solid black;
+      }
+      .fourth{
+        /* border: 2px solid black; */
+        width:400px;
+        height: 350px;
+        border-radius: 10px;
+      }
+      .fourth:hover{
+        border: 1px solid black;
+      }

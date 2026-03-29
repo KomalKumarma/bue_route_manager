@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  background-image: url(imges/luxurybackgroung.jpg);
+  background-size: cover;
+}
+
+.page-header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ .container-grid {
+   /* display: flex; */
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; 
+   width: 1500px;
+  height: 800px; 
+  margin: 0 auto; 
+} 
+
+/* .cardpre {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  left: 100px;
+} */
+ .cardpre{
+     width: 400px;
+     height: 300px;
+     background-color: #fff;
+     position: relative;
+     left: 50px;
+     top: 30px;
+     background-image: url(imges/ambaridreamclass.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+     border-radius: 20px;
+ }
+.cardone {
+    width: 400px;
+     height: 300px;
+     background-color: #fff;
+     position: relative;
+     left: 530px;
+     bottom: 265px;
+     background-image: url(imges/flybus.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-radius: 20px;
+
+}
+/* .cardone {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 1600px;
+  position: relative;
+  left: 500px;
+} */
+.cardtwo {
+     width: 400px;
+     height: 300px;
+     background-color: #fff;
+     position: relative;
+     left: 1000px;
+     bottom: 570px;
+     background-image: url(imges/rajahamsa.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-radius: 20px;
+}
+/* .cardtwo {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 1600px;
+  position: relative;
+  left: 350px;
+} */
+.cardthree {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+     position: relative;
+     left: 50px;
+     bottom: 500px;
+     background-image: url(imges/airavatbliss.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-radius: 20px;
+}
+/* .cardthree {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 1600px;
+  position: relative;
+  top: 350px;
+  right: 680px;
+} */
+/* .cardfour {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 1700px;
+  position: relative;
+  top: 350px;
+  right: 480px;
+} */
+ .cardfour {
+     width: 400px;
+     height: 300px;
+     background-color: #fff;
+     position: relative;
+     left: 530px;
+     bottom: 800px;
+     background-image: url(imges/pallaki.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+     border-radius: 20px;
+}
+/* .cardfive {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  height: 300px;
+  width: 1700px;
+  position: relative;
+  top: 350px;
+  right: 280px;
+} */
+ .cardfive {
+     width: 400px;
+     height: 300px;
+     background-color: #fff;
+     position: relative;
+     left: 1000px;
+     bottom: 1100px;
+     background-image: url(imges/comingsoon.jpg);
+     background-size: cover;
+     transition: transform 0.2s ease;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-radius: 20px;
+}
+
+.cardpre:hover {
+     transform: translateY(-5px);
+}
+.cardone:hover {
+     transform: translateY(-5px);
+}
+.cardtwo:hover {
+     transform: translateY(-5px);
+}
+.cardthree:hover {
+     transform: translateY(-5px);
+}
+.cardfour:hover {
+     transform: translateY(-5px);
+}
+.cardfive:hover {
+     transform: translateY(-5px);
+}
+
+
+
+ .cardpre button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 250px;
+  left: 100px;
+}
+.cardone button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 240px;
+  left: 160px;
+}
+.cardtwo button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 240px;
+  left: 160px;
+}
+.cardthree button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 240px;
+  left: 120px;
+}
+.cardfour button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 240px;
+  left: 150px;
+}
+.cardfive button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  top: 240px;
+  left: 150px;
+}
+
+
+.cardpre button:hover {
+  background-color: #0056b3;
+} 
+.cardone button:hover {
+  background-color: #0056b3;
+} 
+.cardtwo button:hover {
+  background-color: #0056b3;
+} 
+.cardthree button:hover {
+  background-color: #0056b3;
+} 
+.cardfour button:hover {
+  background-color: #0056b3;
+} 
+.cardfive button:hover {
+  background-color: #0056b3;
+}  
+ .cardback button{
+   padding: 10px 20px;
+   background-color: #007bff;
+   border: none;
+   color: #fff;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 1rem;
+   position: relative;
+   left: 700px ;
+   bottom: 40px;
+}
+.cardback button:hover {
+  background-color: #0056b3;
+} 
+
